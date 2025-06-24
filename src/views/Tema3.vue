@@ -111,19 +111,19 @@
                     ul.lista-ul--color
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Infraestructura
+                        p.mb-0 Infraestructura.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Gestión del personal
+                        p.mb-0 Gestión del personal.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Registro documental
+                        p.mb-0 Registro documental.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Manejo de insumos y residuos
+                        p.mb-0 Manejo de insumos y residuos.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Procesos de alimentación, sanidad, bioseguridad y trazabilidad
+                        p.mb-0 Procesos de alimentación, sanidad, bioseguridad y trazabilidad.
 
         .titulo-con-imagen(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -145,7 +145,7 @@
               TarjetaAudio.color-primario.bg-color-white.mb-3(
                 texto="Tipos de evaluación según su momento de aplicación "
                 tiempo
-                :audio="require('../assets/curso/podcast/podcast1.mp3')"
+                :audio="require('../assets/curso/podcast/Podcast_CF02.mp3')"
               )
     
     separador
@@ -211,7 +211,7 @@
                 td Entidades certificadoras, como el ICA
                 td Anual o según plan vigente
                 td Validar cumplimiento oficial, emitir recomendaciones y respaldar certificación ante el mercado
-                td ICA 3-138 v.4, inspección in situ, entrevistas, observación directa
+                td ICA 3-138 v.4, inspección <em>in situ</em>, entrevistas, observación directa
 
     separador
 
@@ -385,7 +385,7 @@
               img(src="@/assets/curso/temas/tema3/25.png", data-aos="zoom-in")
           .col-lg-8.order-1.mb-3.mb-lg-0        
             .bg-color-2.tarjeta.p-5(data-aos="fade-left")
-                p.mb-0 Las variables de evaluación de la cadena productiva de ganado de carne son pilares fundamentales del correcto funcionamiento de la empresa ganadera, ayudan a direccionar el establecimiento al buen manejo y cumplimiento de BPG en la ganadería de carne colombiana.
+                p.mb-0 Las variables de evaluación de la cadena productiva de ganado de carne son pilares fundamentales del correcto funcionamiento de la empresa ganadera; ayudan a direccionar el establecimiento al buen manejo y cumplimiento de BPG en la ganadería de carne colombiana.
         
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -481,7 +481,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Tabla 8.
-          span Indicadores de Bienestar Animal
+          span Indicadores de bienestar animal
         
         .tabla-a.color-acento-botones.mb-5
           table

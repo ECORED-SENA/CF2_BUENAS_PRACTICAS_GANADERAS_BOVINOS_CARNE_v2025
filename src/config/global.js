@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Gestión y Evaluación en Ganadería de Carne',
     Description:
-      'La capacitación tiene como objetivo fortalecer las competencias para supervisar la implementación de BPG en sistemas de producción de bovinos de carne, asegurando el cumplimiento de la normativa vigente y promoviendo la sostenibilidad productiva. Se enfoca en la evaluación y monitoreo continuo de procesos clave como manejo animal, sanidad, alimentación, bienestar y gestión ambiental, con el fin de garantizar prácticas responsables, eficientes y trazables en toda la cadena productiva',
+      'La capacitación tiene como objetivo fortalecer las competencias para supervisar la implementación de BPG en sistemas de producción de bovinos de carne, asegurando el cumplimiento de la normativa vigente y promoviendo la sostenibilidad productiva. Se enfoca en la evaluación y monitoreo continuo de procesos clave como manejo animal, sanidad, alimentación, bienestar y gestión ambiental, con el fin de garantizar prácticas responsables, eficientes y trazables en toda la cadena productiva.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

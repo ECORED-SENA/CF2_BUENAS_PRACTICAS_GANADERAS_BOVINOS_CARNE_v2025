@@ -7,7 +7,7 @@
         span 1
       h1 Trazabilidad de la producción
     
-    p.mb-5 El Servicio Agrícola y Ganadero implementa la Trazabilidad Animal para fortalecer la seguridad en la producción ganadera. Este proceso permite identificar y seguir el rastro de cada animal desde su origen hasta su destino final, mediante un sistema estructurado de registros y controles oficiales.
+    p.mb-5 El servicio agrícola y ganadero implementa la trazabilidad animal para fortalecer la seguridad en la producción ganadera. Este proceso permite identificar y seguir el rastro de cada animal desde su origen hasta su destino final, mediante un sistema estructurado de registros y controles oficiales.
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -46,7 +46,7 @@
                 img(src="@/assets/curso/temas/tema1/5.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4 Sistema Oficial de Información Pecuaria (SIPECweb)
-              p Plataforma donde se registran, almacenan y gestionan todos los datos del Programa.
+              p Plataforma donde se registran, almacenan y gestionan todos los datos del programa.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -187,22 +187,22 @@
                 ul.lista-ul--color
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Fecha de nacimiento
+                    p.mb-0 Fecha de nacimiento.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Raza
+                    p.mb-0 Raza.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Edad
+                    p.mb-0 Edad.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Esquema de vacunación
+                    p.mb-0 Esquema de vacunación.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Tratamientos veterinarios
+                    p.mb-0 Tratamientos veterinarios.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Movimientos a lo largo de su vida productiva
+                    p.mb-0 Movimientos a lo largo de su vida productiva.
         
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
@@ -277,19 +277,19 @@
                 ul.lista-ul--color
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Alimentación
+                    p.mb-0 Alimentación.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Tratamientos médicos
+                    p.mb-0 Tratamientos médicos.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Transporte
+                    p.mb-0 Transporte.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Sacrificio
+                    p.mb-0 Sacrificio.
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-6
-                    p.mb-0 Comercialización
+                    p.mb-0 Comercialización.
 
     .bg-full-width.bg-color-1
       .px-4.px-md-5.py-4
@@ -319,11 +319,11 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-2.p-5.h-100(data-aos="fade-up")
               img(src="@/assets/curso/temas/tema1/22.svg", style="max-width: 70px").mx-auto.mb-3
-              p.mb-0 Control del ingreso de personas, vehículos, animales y equipos
+              p.mb-0 Control del ingreso de personas, vehículos, animales y equipos.
           .col-lg-4
             .bg-color-8.p-5.h-100(data-aos="fade-down")
               img(src="@/assets/curso/temas/tema1/23.svg", style="max-width: 70px").mx-auto.mb-3
-              p.mb-0 Desinfección de instalaciones y áreas críticas
+              p.mb-0 Desinfección de instalaciones y áreas críticas.
 
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -344,19 +344,19 @@
                     ul.lista-ul--color
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Trazabilidad
+                        p.mb-0 Trazabilidad.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Bioseguridad
+                        p.mb-0 Bioseguridad.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Bienestar animal
+                        p.mb-0 Bienestar animal.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Sanidad
+                        p.mb-0 Sanidad.
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 Manejo responsable del ganado
+                        p.mb-0 Manejo responsable del ganado.
             p La capacitación asegura el cumplimiento de los procedimientos establecidos.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -370,7 +370,7 @@
           img(src="@/assets/curso/temas/tema1/25.png", data-aos="zoom-in")
       .col-lg-8.order-1.mb-3.mb-lg-0        
         .bg-color-2.tarjeta.p-5(data-aos="fade-left")
-          p.mb-0 Los registros pueden mantenerse en formatos físicos o digitales, pero deben estar disponibles ante inspecciones sanitarias o auditorías de certificación. La conservación segura y organizada de esta información es esencial para garantizar la trazabilidad
+          p.mb-0 Los registros pueden mantenerse en formatos físicos o digitales, pero deben estar disponibles ante inspecciones sanitarias o auditorías de certificación. La conservación segura y organizada de esta información es esencial para garantizar la trazabilidad.
     
     separador
 
