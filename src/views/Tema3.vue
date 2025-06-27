@@ -277,12 +277,12 @@
                 td 1.1
                 td Registro actualizado de vacunación
                 td Si
-                td
+                td -
                 td Faltan datos de 5 animales
               tr
                 td 2.3
                 td Acceso permanente a agua limpia
-                td
+                td -
                 td No
                 td Se recomienda aumentar bebederos
 
