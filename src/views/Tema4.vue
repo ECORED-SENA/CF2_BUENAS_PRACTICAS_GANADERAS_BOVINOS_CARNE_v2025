@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Estrategias correctivas
@@ -17,12 +17,15 @@
     
     separador
 
+    #t_4_1
     .titulo-segundo.color-acento-contenido
       h2 4.1 Subsanación
 
     .bg-full-width.bg-color-1
       .px-4.px-md-5.py-4
-        p.mb-5 La <b>subsanación</b> es el proceso mediante el cual se identifican, documentan y resuelven las no conformidades encontradas en una auditoría o autoevaluación. Este proceso incluye:
+
+        p.mb-5(data-aos="fade-left") La <b>subsanación</b> es el proceso mediante el cual se identifican, documentan y resuelven las no conformidades encontradas en una auditoría o autoevaluación. Este proceso incluye:
+
         .row.mb-5.justify-content-center
           .col-lg-8
             .bg-color-7.mb-5(data-aos="fade-up")
@@ -49,14 +52,15 @@
                         i.far.fa-arrow-alt-circle-right.bg-color-6
                         p.mb-0 Verificación posterior del cumplimiento y efectividad de la acción aplicada.
         
-        p El Instituto Colombiano Agropecuario (ICA) permite que los predios ganaderos subsanen las observaciones hechas durante las visitas de evaluación antes de decidir sobre la certificación.
+        p(data-aos="fade-left") El Instituto Colombiano Agropecuario (ICA) permite que los predios ganaderos subsanen las observaciones hechas durante las visitas de evaluación antes de decidir sobre la certificación.
 
     separador
 
+    #t_4_2
     .titulo-segundo.color-acento-contenido
       h2 4.2 Aplicación de acciones correctivas
     
-    p.mb-5 Las acciones correctivas pueden abarcar distintas áreas según el tipo de incumplimiento detectado. A continuación, se presentan ejemplos comunes:
+    p.mb-5(data-aos="fade-left") Las acciones correctivas pueden abarcar distintas áreas según el tipo de incumplimiento detectado. A continuación, se presentan ejemplos comunes:
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -97,7 +101,7 @@
               h4 Manejo ambiental
               p Corrección de prácticas inadecuadas en la gestión de residuos, aguas y fuentes hídricas.
     
-    p Todas estas acciones deben ser documentadas y verificadas posteriormente para asegurar su eficacia.
+    p.mb-0(data-aos="fade-left") Todas estas acciones deben ser documentadas y verificadas posteriormente para asegurar su eficacia.
 
 </template>
 

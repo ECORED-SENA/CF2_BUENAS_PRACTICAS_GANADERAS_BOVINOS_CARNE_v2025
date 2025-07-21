@@ -1,1 +1,1 @@
-module.exports = 'Gestión y Evaluación en Ganadería de Carne'
+module.exports = 'Gestión y evaluación en ganadería de carne'

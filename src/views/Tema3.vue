@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Evaluación
@@ -15,7 +15,7 @@
         .bg-color-2.tarjeta.p-5(data-aos="fade-left")
             p.mb-0 La evaluación en las Buenas Prácticas Ganaderas (BPG) es una herramienta estratégica, estructurada y continua que permite monitorear y verificar el cumplimiento de los estándares establecidos en la producción ganadera. Se considera una de las fases más críticas del proceso de implementación, ya que valora de manera integral todas las acciones ejecutadas en el predio.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/2.png')})`}"
       )
@@ -29,7 +29,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Evaluación en la práctica: metodología y factores clave
         
-        p.mb-5 La evaluación se lleva a cabo mediante visitas técnicas, revisión documental y verificación directa de aspectos esenciales como sanidad animal, bioseguridad, manejo productivo y bienestar animal. Durante el proceso, los funcionarios del ICA emplean listas de chequeo oficiales para constatar que las prácticas implementadas estén alineadas con los principios de inocuidad, sostenibilidad y trazabilidad. Según los resultados, el predio:
+        p.mb-5(data-aos="fade-left") La evaluación se lleva a cabo mediante visitas técnicas, revisión documental y verificación directa de aspectos esenciales como sanidad animal, bioseguridad, manejo productivo y bienestar animal. Durante el proceso, los funcionarios del ICA emplean listas de chequeo oficiales para constatar que las prácticas implementadas estén alineadas con los principios de inocuidad, sostenibilidad y trazabilidad. Según los resultados, el predio:
 
         .row.mb-5.justify-content-center
           .col-lg-4.mb-3.mb-lg-0
@@ -39,8 +39,10 @@
           .col-lg-4
             .bg-color-8.p-5.h-100(data-aos="fade-down")
               img(src="@/assets/curso/temas/tema3/4.svg", style="max-width: 70px").mx-auto.mb-3
-              p.mb-0.text-center Recibir recomendaciones para mejoras y avanzar en el proceso de certificación.
-    p.mb-5 Para que la evaluación sea efectiva, es fundamental:
+              p.mb-0.text-center Puede recibir recomendaciones para mejoras y avanzar en el proceso de certificación.
+    
+    p.mb-5(data-aos="fade-left") Para que la evaluación sea efectiva, es fundamental:
+
     .row.mb-5
       .col-lg-4.mb-4.text-center(data-aos="fade-up")
         .tarjeta.tarjeta-avatar-slide.bg-color-5.p-4.h-100
@@ -58,7 +60,7 @@
           h4 Recursos económicos adecuados
           p Facilitan la ejecución de las actividades evaluativas y correctivas.
     
-    p.mb-5 Esta estrategia permite aprobar, ajustar o rediseñar actividades en función de los materiales, herramientas y resultados observados.
+    p.mb-5(data-aos="fade-left") Esta estrategia permite aprobar, ajustar o rediseñar actividades en función de los materiales, herramientas y resultados observados.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -67,7 +69,8 @@
     
     .bg-full-width.bg-color-1.mb-3
       .px-4.px-md-5.py-4
-        p.mb-5 La evaluación en el marco de las Buenas Prácticas Ganaderas tiene como propósito fundamental asegurar el cumplimiento de estándares técnicos y normativos. Sus objetivos principales son:
+
+        p.mb-5(data-aos="fade-left") La evaluación en el marco de las Buenas Prácticas Ganaderas tiene como propósito fundamental asegurar el cumplimiento de estándares técnicos y normativos. Sus objetivos principales son:
 
         .row.mb-5.justify-content-center
           .col-lg-8
@@ -97,7 +100,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Alcance de la evaluación
         
-        p.mb-5 La evaluación no se limita al animal como tal, sino que abarca todo el sistema de producción, incluyendo:
+        p.mb-5(data-aos="fade-left") La evaluación no se limita al animal como tal, sino que abarca todo el sistema de producción, incluyendo:
 
         .row.mb-5.justify-content-center
           .col-lg-8
@@ -150,6 +153,7 @@
     
     separador
 
+    #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 3.1 Tipologías según el momento y el responsable
     
@@ -161,12 +165,12 @@
           h5 Tabla 2.
           span Tipos de evaluación por momento de aplicación
         
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
             thead
               tr
                 th.bg-color-10 Tipo de Evaluación
-                th.bg-color-10 Cuando se realiza
+                th.bg-color-10 Cuándo se realiza
                 th.bg-color-10 Objetivo
                 th.bg-color-10 Resultado esperado
             tbody.bg-color-white
@@ -190,7 +194,7 @@
           h5 Tabla 3.
           span Tipos de evaluación por responsable
         
-        .tabla-a.color-acento-botones
+        .tabla-a.color-acento-botones(data-aos="fade-right")
           table
             thead
               tr
@@ -201,13 +205,13 @@
                 th.bg-color-10 Herramientas principales
             tbody.bg-color-white
               tr
-                td Evaluación Interna
+                td Evaluación interna
                 td Personal del predio (administrador o técnico)
                 td Trimestral o semestral
                 td Verificar cumplimiento de BPG, detectar fallas y retroalimentar al equipo
                 td Listas de chequeo internas, manuales operativos
               tr
-                td Evaluación Externa
+                td Evaluación externa
                 td Entidades certificadoras, como el ICA
                 td Anual o según plan vigente
                 td Validar cumplimiento oficial, emitir recomendaciones y respaldar certificación ante el mercado
@@ -215,6 +219,7 @@
 
     separador
 
+    #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Técnicas e instrumentos
     
@@ -255,7 +260,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Estructura típica de una lista de chequeo
     
-    p.mb-5 Incluye criterios técnicos y evidencias necesarias para verificar el cumplimiento. Se califican como cumple / no cumple / no aplica y se anotan observaciones:
+    p.mb-5(data-aos="fade-left") Incluye criterios técnicos y evidencias necesarias para verificar el cumplimiento. Se califican como cumple / no cumple / no aplica y se anotan observaciones:
 
     .row.justify-content-center
       .col-lg-10
@@ -263,42 +268,37 @@
           h5 Tabla 4.
           span Estructura típica de una lista de chequeo
         
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
             thead
               tr
                 th.bg-color-10 Ítem
                 th.bg-color-10 Descripción
                 th.bg-color-10 Cumple
-                th.bg-color-10 No cumple
                 th.bg-color-10 Observaciones
             tbody.bg-color-white
               tr
                 td 1.1
                 td Registro actualizado de vacunación
-                td Si
-                td -
+                td Sí
                 td Faltan datos de 5 animales
               tr
                 td 2.3
                 td Acceso permanente a agua limpia
-                td -
                 td No
                 td Se recomienda aumentar bebederos
 
     separador
 
+    #t_3_3
     .titulo-segundo.color-acento-contenido
       h2 3.3 Evaluaciones especializadas
     
-    p.mb-5 Estas evaluaciones se enfocan en áreas específicas del sistema productivo ganadero:
+    p.mb-5(data-aos="fade-left") Estas evaluaciones se enfocan en áreas específicas del sistema productivo ganadero:
 
     .bg-full-width.bg-fondo-slider.tarjeta
       .p-5
         .tarjeta.bg-color-12.p-4
-          //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- text-small se usa para que los títulos sean mas pequeños
           LineaTiempoC.color-acento-botones(text-small)
             .row(titulo="Evaluación de resultados").justify-content-around.align-items-center
               .col-md-4.mb-4.mb-md-0
@@ -330,7 +330,7 @@
               .col-md-3
                 figure
                   img(src='@/assets/curso/temas/tema3/21.png', alt='Texto que describa la imagen')
-            .row(titulo="Evaluación para solución de problemas").justify-content-around.align-items-center
+            .row(titulo="Evaluación solución de problemas").justify-content-around.align-items-center
               .col-md-4.mb-4.mb-md-0
                 p.mb-0 Identificar causas raíz y aplicar soluciones correctivas oportunas.
               .col-md-3
@@ -339,12 +339,14 @@
     
     separador
 
+    #t_3_4
     .titulo-segundo.color-acento-contenido
       h2 3.4 Importancia de la evaluación integral
     
     .bg-full-width.bg-color-1.mb-3
       .px-4.px-md-5.py-4
-        p.mb-5 La combinación equilibrada de evaluaciones internas, externas, técnicas y especializadas fortalece el sistema ganadero al:
+
+        p.mb-5(data-aos="fade-left") La combinación equilibrada de evaluaciones internas, externas, técnicas y especializadas fortalece el sistema ganadero al:
 
         .row.mb-3.justify-content-center
           .col-lg-8
@@ -392,7 +394,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Indicadores considerados en la evaluación de las BPG
         
-        p Los indicadores que se tienen en cuenta en la evaluación de las Buenas Prácticas Ganaderas (BPG) están orientados a medir la eficiencia y productividad de la unidad productiva. Una descripción más amplia se encuentra en el Componente 1 del curso, sobre indicadores de gestión.
+        p(data-aos="fade-left") Los indicadores que se tienen en cuenta en la evaluación de las Buenas Prácticas Ganaderas (BPG) están orientados a medir la eficiencia y productividad de la unidad productiva. Una descripción más amplia se encuentra en el Componente 1 del curso, sobre indicadores de gestión.
 
     .row.justify-content-center.mb-3
       .col-lg-10
@@ -400,7 +402,7 @@
           h5 Tabla 5.
           span Indicadores productivos
         
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
             thead
               tr
@@ -431,7 +433,7 @@
           h5 Tabla 6.
           span Indicadores sanitarios
         
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-left")
           table
             thead
               tr
@@ -456,7 +458,7 @@
           h5 Tabla 7.
           span Indicadores ambientales
         
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
             thead
               tr
@@ -483,7 +485,7 @@
           h5 Tabla 8.
           span Indicadores de bienestar animal
         
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
             thead
               tr
@@ -505,7 +507,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Herramientas para el monitoreo de indicadores
     
-    p.mb-5 El monitoreo de los indicadores puede realizarse a través de diversas herramientas tecnológicas y manuales, tales como:
+    p.mb-5(data-aos="fade-left") El monitoreo de los indicadores puede realizarse a través de diversas herramientas tecnológicas y manuales, tales como:
 
     .bg-full-width.bg-color-1.mb-3
       .px-4.px-md-5.py-4
@@ -521,7 +523,7 @@
                     ul.lista-ul--color
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
-                        p.mb-0 <b>Software de gestión ganadera</b> (ej. Software ganadero).
+                        p.mb-0 #[b #[i Software] de gestión ganadera] (ej. #[i Software] ganadero).
                       li.mb-0.d-flex
                         i.far.fa-arrow-alt-circle-right.bg-color-6
                         p.mb-0 <b>Registros manuales:</b> fichas técnicas, cuadernos de pesaje, hojas Excel.
@@ -556,7 +558,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Interpretación y toma de decisiones
         
-        p.mb-5 El monitoreo de indicadores no debe limitarse a la recolección de datos. Debe usarse para:
+        p.mb-5(data-aos="fade-left") El monitoreo de indicadores no debe limitarse a la recolección de datos. Debe usarse para:
 
         .row.mb-3.justify-content-center
           .col-lg-8
@@ -586,7 +588,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Metodología de evaluación de las BPG
     
-    p.mb-5 La metodología para evaluar las BPG en una unidad productiva incluye los siguientes pasos:
+    p.mb-5(data-aos="fade-left") La metodología para evaluar las BPG en una unidad productiva incluye los siguientes pasos:
 
     .bg-full-width.bg-color-1.mb-3
       .px-4.px-md-5.py-4
@@ -638,7 +640,7 @@
                   h5.mb-2 Seguimiento y evaluación continua
                   p.mb-0 Monitoreo para asegurar efectividad y realizar ajustes.
 
-        p.mb-5 La evaluación se basa en una lista de verificación estructurada que contempla los siguientes criterios:
+        p.mb-5(data-aos="fade-left") La evaluación se basa en una lista de verificación estructurada que contempla los siguientes criterios:
 
         .row.justify-content-center.mb-3
           .col-lg-8
@@ -646,12 +648,12 @@
               h5 Tabla 9.
               span Criterios evaluados en la metodología
             
-            .tabla-a.color-acento-botones.mb-5
+            .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
               table
                 thead
                   tr
                     th.bg-color-10 Categoría
-                    th.bg-color-10 Aspectos Evaluados
+                    th.bg-color-10 Aspectos evaluados
                 tbody.bg-color-white
                   tr
                     td Infraestructura y bienestar animal
@@ -681,7 +683,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Instrumentos oficiales de evaluación
 
-        p.mb-5 El principal instrumento oficial es la lista de verificación del ICA, según la Resolución No. 068167 del 20 de mayo de 2020, que establece los requisitos para la certificación en producción de carne bovina. También se utilizan los siguientes registros específicos:
+        p.mb-5(data-aos="fade-left") El principal instrumento oficial es la lista de verificación del ICA, según la Resolución No. 068167 del 20 de mayo de 2020, que establece los requisitos para la certificación en producción de carne bovina. También se utilizan los siguientes registros específicos:
       
         .row.mb-3.justify-content-center
           .col-lg-8
@@ -711,7 +713,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Criterios y exigencias
         
-        p.mb-5 La lista de chequeo debe ser diligenciada conforme a la normatividad del ente de control y adaptarse a toda la cadena de producción. Esto permite obtener una evaluación detallada, objetiva y completa del cumplimiento de las BPG.
+        p.mb-5(data-aos="fade-left") La lista de chequeo debe ser diligenciada conforme a la normatividad del ente de control y adaptarse a toda la cadena de producción. Esto permite obtener una evaluación detallada, objetiva y completa del cumplimiento de las BPG.
 
         .tarjeta.bg-color-3.p-4.mb-5
           .row.justify-content-around.align-items-center
@@ -729,6 +731,7 @@
         
         separador
 
+        #t_3_5
         .titulo-segundo.color-acento-contenido
           h2 3.5 Hallazgos
     
@@ -740,13 +743,13 @@
         .bg-color-2.tarjeta.p-5(data-aos="fade-left")
             p.mb-0 Los estudios y evaluaciones realizadas en predios ganaderos han permitido identificar una serie de fortalezas y áreas de mejora recurrentes en la implementación de las Buenas Prácticas Ganaderas (BPG). Estos hallazgos subrayan la necesidad de una evaluación continua y la aplicación de planes de mejora para alcanzar y mantener la certificación en BPG.
 
-    .row.justify-content-center.mb-3
+    .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Tabla 10.
           span Hallazgos comunes en la evaluación de BPG
         
-        .tabla-a.color-acento-botones.mb-5
+        .tabla-a.color-acento-botones(data-aos="fade-right")
           table
             thead
               tr
@@ -758,11 +761,7 @@
                 td Deficiencias en el manejo ambiental y la disposición de residuos.
               tr
                 td Implementación de programas de vacunación y control sanitario.
-                td Falta de registros actualizados y completos. Necesidad de mejorar la infraestructura para el manejo y bienestar animal. 
-             
-
-
-
+                td Falta de registros actualizados y completos. Necesidad de mejorar la infraestructura para el manejo y bienestar animal.
              
 </template>
 

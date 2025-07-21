@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Gestión y Evaluación en Ganadería de Carne',
+    Name: 'Gestión y evaluación en ganadería de carne',
     Description:
       'La capacitación tiene como objetivo fortalecer las competencias para supervisar la implementación de BPG en sistemas de producción de bovinos de carne, asegurando el cumplimiento de la normativa vigente y promoviendo la sostenibilidad productiva. Se enfoca en la evaluación y monitoreo continuo de procesos clave como manejo animal, sanidad, alimentación, bienestar y gestión ambiental, con el fin de garantizar prácticas responsables, eficientes y trazables en toda la cadena productiva.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -182,21 +182,21 @@ export default {
     {
       tema: 'Buenas prácticas ganaderas de carne',
       referencia:
-        'TvAgro. (2019). Ventajas de Contar con la Certificacion en Buenas Practicas Ganaderas- TvAgro por Juan Gonzalo Angel  [Video]. YouTube. ',
+        'TvAgro. (2019). Ventajas de Contar con la Certificación en Buenas Prácticas Ganaderas - TvAgro por Juan Gonzalo Angel  [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/2dwgpN2cl6Q',
     },
     {
       tema: 'Buenas prácticas ganaderas de carne',
       referencia:
-        'TvAgro (2018). La importancia de Implementar Buenas Practicas Ganaderas- TvAgro por Juan Gonzalo Angel.  [Video]. YouTube.',
+        'TvAgro. (2018). La importancia de Implementar Buenas Prácticas Ganaderas - TvAgro por Juan Gonzalo Angel.  [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/5FGxknhQuVk',
     },
     {
       tema: 'Indicadores productivos',
       referencia:
-        'TvAgro (2015).Como Producir Carne eficiéntemente - Montería Colombia- TvAgro por Juan Gonzalo Angel  [Video]. YouTube. ',
+        'TvAgro. (2015). Cómo Producir Carne eficiéntemente - Montería Colombia - TvAgro por Juan Gonzalo Angel  [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/OxRkFHVZArU',
     },
@@ -330,7 +330,7 @@ export default {
     },
     {
       referencia:
-        'Universidad Nacional de Colombia. (2021). Implementación de Buenas Prácticas Ganaderas y su efecto sobre la calidad de la carne bovina. ',
+        'Universidad Nacional de Colombia. (2021). Sierra, C. (2021). Implementación de Buenas Prácticas Ganaderas y su efecto sobre algunos parámetros de calidad comercial en canales bovinas provenientes del departamento de Arauca (Colombia). Universidad Nacional de Colombia. ',
       link:
         'https://repositorio.unal.edu.co/bitstream/handle/unal/79485/17587001.2021.pdf',
     },
@@ -358,13 +358,13 @@ export default {
           nombre: 'Eliana Audrey Manchola Pérez',
           cargo: 'Experta temática',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Paola Alexandra Moya',
           cargo: 'Evaluadora instruccional',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -375,37 +375,37 @@ export default {
           nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de contenidos digitales',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cielo Damaris Angulo Rodriguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Alejandro Delgado Acosta',
           cargo: 'Intérprete lenguaje de señas',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura',
           cargo: 'Intérprete lenguaje de señas',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Animador y productor multimedia',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Andrés Felipe Guevara Ariza',
           cargo: 'Locución',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -416,25 +416,25 @@ export default {
           nombre: 'Aixa Natalia Sendoya Fernández',
           cargo: 'Validador de recursos educativos digitales',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario del Huila - Regional Huila',
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

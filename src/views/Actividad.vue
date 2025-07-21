@@ -92,7 +92,8 @@ export default {
         },
         {
           id: 3,
-          texto: 'Qué indicador sanitario alerta sobre fallas en bioseguridad?',
+          texto:
+            '¿Qué indicador sanitario alerta sobre fallas en bioseguridad?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

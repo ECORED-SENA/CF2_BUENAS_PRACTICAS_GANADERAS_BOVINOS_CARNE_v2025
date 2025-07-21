@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Gestión de personal
@@ -30,10 +30,11 @@
     
     separador
 
+    #t_2_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Herramientas clave para la gestión del personal
     
-    p.mb-5 Las empresas ganaderas deben implementar y mantener actualizadas herramientas que permitan una administración eficiente del talento humano:
+    p.mb-5(data-aos="fade-left") Las empresas ganaderas deben implementar y mantener actualizadas herramientas que permitan una administración eficiente del talento humano:
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -81,8 +82,8 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Comunicación y gestión de personal: estrategias interrelacionadas
 
-        p Aunque la comunicación y la gestión del personal son procesos independientes, están estrechamente relacionadas dentro del macroproceso de producción ganadera. Una comunicación efectiva favorece la interacción entre equipos y entidades del sector, mientras que una buena gestión de personal asegura el cumplimiento de responsabilidades y normas.
-        p.mb-5 A continuación, se comparan sus características principales:
+        p(data-aos="fade-left") Aunque la comunicación y la gestión del personal son procesos independientes, están estrechamente relacionadas dentro del macroproceso de producción ganadera. Una comunicación efectiva favorece la interacción entre equipos y entidades del sector, mientras que una buena gestión de personal asegura el cumplimiento de responsabilidades y normas.
+        p.mb-5(data-aos="fade-left") A continuación, se comparan sus características principales:
 
         .row.mb-5.justify-content-center
           .col-lg-4.mb-3.mb-lg-0
@@ -106,20 +107,23 @@
               h4 Nota práctica
               p.mb-0 Para aplicar correctamente estas estrategias en la finca ganadera, registre en su libreta personal los aspectos más destacados. Esto le permitirá consolidar aprendizajes y mejorar la implementación de las BPG.
     
-    p.mb-5 Le presentamos una serie de aspectos clave para la aplicación de las estrategias de comunicación y gestión de personal en la finca ganadera: 
+    p.mb-5(data-aos="fade-left") Le presentamos una serie de aspectos clave para la aplicación de las estrategias de comunicación y gestión de personal en la finca ganadera: 
 
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/6-6-rDJ-vdk?si=aUOUUjKl7xcXsw0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[b Video.] Comunicación y gestión de personal en la finca ganadera
 
     separador
 
     .bg-full-width.bg-color-1.mb-5
       .px-4.px-md-5.py-4
+
+        #t_2_2
         .titulo-segundo.color-acento-contenido
           h2 2.2 Capacitación
         
-        p.mb-5 La formación del personal es obligatoria y periódica en las empresas ganaderas certificadas en BPG. Debe enfocarse en temas fundamentales que aseguren el cumplimiento de los estándares sanitarios, ambientales y productivos.
+        p.mb-5(data-aos="fade-left") La formación del personal es obligatoria y periódica en las empresas ganaderas certificadas en BPG. Debe enfocarse en temas fundamentales que aseguren el cumplimiento de los estándares sanitarios, ambientales y productivos.
 
         .row.justify-content-center
           .col-lg-8
@@ -159,16 +163,17 @@
             .col-lg
               h4 Importante
               p.mb-0 El ICA exige conservar registros detallados de las capacitaciones, incluyendo <b>firmas de los asistentes, fechas, temarios y responsables.</b>
-
     
     separador
 
     .bg-full-width.bg-color-1.mb-5
       .px-4.px-md-5.py-4
+
+        #t_2_3
         .titulo-segundo.color-acento-contenido
           h2 2.3 Asignación de funciones
         
-        p.mb-5 Cada trabajador debe contar con <b>funciones definidas y documentadas</b>, alineadas con los protocolos de BPG. Esta asignación debe garantizar claridad, responsabilidad y cumplimiento operativo.
+        p.mb-5(data-aos="fade-left") Cada trabajador debe contar con <b>funciones definidas y documentadas</b>, alineadas con los protocolos de BPG. Esta asignación debe garantizar claridad, responsabilidad y cumplimiento operativo.
 
         .row.mb-5
           .col-lg-4.mb-4.text-center(data-aos="fade-up")
@@ -189,10 +194,11 @@
 
         separador
 
+        #t_2_4
         .titulo-segundo.color-acento-contenido
           h2 2.4 Evaluación del desempeño
         
-        p.mb-5 La evaluación del desempeño es un proceso esencial para mejorar la eficiencia del personal y mantener altos estándares de calidad. Debe ser <b>documentada y alineada</b> con los objetivos estratégicos de la empresa.
+        p.mb-5(data-aos="fade-left") La evaluación del desempeño es un proceso esencial para mejorar la eficiencia del personal y mantener altos estándares de calidad. Debe ser <b>documentada y alineada</b> con los objetivos estratégicos de la empresa.
     
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
@@ -225,14 +231,12 @@
 
         .row.justify-content-center
           .col-lg-10
-            div.px-4.px-md-5.py-4.bg-color-9.tarjeta.mb-5
+            div.px-4.px-md-5.py-4.bg-color-9.tarjeta
               .row.align-items-center
                 .col-lg-auto
                   img(src="@/assets/curso/temas/tema2/10.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 La documentación de estas evaluaciones es indispensable como evidencia en auditorías internas o externas.
-
-
 
 </template>
 
