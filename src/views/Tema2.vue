@@ -111,7 +111,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/6-6-rDJ-vdk?si=aUOUUjKl7xcXsw0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lVX98WfSHTk?si=e8GshK17dG_fItPr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption #[b Video.] Comunicación y gestión de personal en la finca ganadera
 
     separador
